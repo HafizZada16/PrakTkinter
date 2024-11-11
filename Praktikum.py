@@ -42,7 +42,7 @@ for i in range(10):
     entries.append(entry)
 
 # Tombol untuk hasil prediksi
-prediksi_button = tk.Button(root, text="Hasil Prediksi", command=hasil_prediksi, bg="#B9E5E8") # bg="" untuk mengganti warna background root
+prediksi_button = tk.Button(root, text="Hasil Prediksi", command=hasil_prediksi, bg="#B9E5E8") # bg="" untuk mengganti warna background
 prediksi_button.pack(pady=10)
 
 # Label untuk menampilkan hasil prediksi
