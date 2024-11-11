@@ -49,5 +49,5 @@ prediksi_button.pack(pady=10)
 hasil_label = tk.Label(root, text="Hasil Prediksi: ", font=("Comic Sans MS", 12, "bold"), bg="#DFF2EB", fg="#4A628A") # fg="" untuk mengganti warna font
 hasil_label.pack(pady=10)
 
-# Menjalankan aplikasi / Memanggil semua fungsi
+# Menjalankan / memproses aplikasi
 root.mainloop()
